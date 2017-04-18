@@ -1,0 +1,9 @@
+ul {
+    list-style: square outside;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+ul:not(.browser-default) li{
+    list-style-type: decimal;
+}

@@ -1,23 +1,23 @@
 $(document).ready(function() {
 
-    for (var i = 0; i < data.length; i++) {
+    function app(i){
         $('.list').append(
-            "<li>" + data[i].name + "</li>" +
-            "<ul>" +
-            "<li>" + data[i].text + "</li>");
+            "<ul class = 'collection with-header'>" +
+            "<li class = 'collection-header'><h5>" + data[i].name + "</h5></li>" +
+            "<li class = 'collection-item'>" + data[i].text + "</li>");
+    }
+    for (var i = 0; i < data.length; i++) {
+        app(i);
     }
 
     $('#search').keyup(function () {
-        $('#uh').text("Results for " + $(this).val() + ":");
+        $('.prompt').text("Results for " + $(this).val() + ":");
         $('.list').empty();
 
         for (var i = 0; i < data.length; i++) {
             if (data[i].name.toLowerCase().indexOf($(this).val().toLowerCase()) >= 0
                 || data[i].text.toLowerCase().indexOf($(this).val().toLowerCase()) >= 0) {
-                $('.list').append(
-                    "<li>" + data[i].name + "</li>" +
-                    "<ul>" +
-                    "<li>" + data[i].text + "</li>");
+                app(i);
             }
         }
     });
