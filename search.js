@@ -10,6 +10,8 @@ $(document).ready(function() {
         app(i);
     }
 
+    Materialize.showStaggeredList('.list');
+
     $('#search').keyup(function () {
         $('.prompt').text("Results for " + $(this).val() + ":");
         $('.list').empty();
@@ -20,5 +22,6 @@ $(document).ready(function() {
                 app(i);
             }
         }
+        Materialize.showStaggeredList('.list');
     });
 });
