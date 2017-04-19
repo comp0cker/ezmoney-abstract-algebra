@@ -35,7 +35,7 @@ var data = [
     },
     {
         name: "Definition Zero-Divisors",
-        text: "A zero-divisor is a nonzero element a of a commutative ring R such that there is a nonzero element b [ R with ab 5 0."
+        text: "A zero-divisor is a nonzero element a of a commutative ring R such that there is a nonzero element b ∈ R with ab = 0."
     },
     {
         name: "Definition Integral Domain",
