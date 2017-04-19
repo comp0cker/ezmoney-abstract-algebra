@@ -31,7 +31,7 @@ var data = [
     },
     {
         name: "Theorem 12.3 Subring Test",
-        text: "A nonempty subset S of a ring R is a subring if S is closed under subtraction and multiplication—that is, if a 2 b and ab are in S whenever a and b are in S."
+        text: "A nonempty subset S of a ring R is a subring if S is closed under subtraction and multiplication—that is, if a - b and ab are in S whenever a and b are in S."
     },
     {
         name: "Definition Zero-Divisors",
@@ -54,7 +54,24 @@ var data = [
         text: "A finite integral domain is a field."
     },
     {
+        name: "Corollary Zₚ is a Field",
+        text: "For every prime p, Zₚ, the ring of integers modulo p is a field."
+    },
+    {
+        name: "Definition Characteristic of a Ring",
+        text: "The characteristic of a ring R is the least positive integer n such that nx = 0 for all x in R. If no such integer exists, we say that R has characteristic 0. The characteristic of R is denoted by char R."
+    },
+    {
+        name: "Theorem 13.3 Characteristic of a Ring with Unity",
+        text: "Let R be a ring with unity 1. If 1 has infinite order under addition, then the characteristic of R is 0. If 1 has order n under addition, then the characteristic of R is n."
+    },
+    {
+        name: "Theorem 13.4 Characteristic of an Integral Domain",
+        text: "The characteristic of an integral domain is 0 or prime."
+    },
+/*
         name: "",
         text: ""
     },
+    */
 ];
