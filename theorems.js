@@ -100,7 +100,33 @@ var data = [
 
     {
         name: "Theorem 14.2 Existence of Factor Rings",
-        text: "",
+        text: "Let R be a ring and let A be a subring of R. The set of cosets {r + A | r ∈ R} is a ring under the operations (s + A) + (t + A) = s + t + A" +
+        "and (s + A)(t + A) = st + A if and only if A is an ideal of R.",
+        chapter: "14"
+    },
+
+    {
+        name: "Definition Prime Ideal, Maximal Ideal",
+        text: "A prime ideal A of a commutative ring R is a proper ideal of R such that a, b ∈ R and ab ∈A imply a ∈ A or b ∈A. A maximal ideal of a commutative ring R" +
+        "is a proper ideal of R such that, whenever B is an ideal of R and A ⊆ B ⊆R, then B = A or B = R.",
+        chapter: "14"
+    },
+
+    {
+        name: "Theorem 14.3 R/A Is an Integral Domain If and Only If A is Prime",
+        text: "Let R be a commutative ring with unity and let A be an ideal of R. Then R/A is an integral domain if and only if A is prime.",
+        chapter: "14"
+    },
+
+    {
+        name: "Theorem 14.4 R/A Is a Field If and Only If A is Maximal",
+        text: "Let R be a commutative ring with unity and let A be an ideal of R. Then R/A is an integral domain if and only if A is prime.",
+        chapter: "14"
+    },
+
+    {
+        name: "Theorem 14.4 R/A Is a Field If and Only If A Is Maximal",
+        text: "Let R be a commutative ring with unity and let A be an ideal of R. Then R/A is a field if and only if A is maximal.",
         chapter: "14"
     },
 
