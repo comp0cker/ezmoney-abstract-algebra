@@ -1,3 +1,9 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 ul {
     list-style: square outside;
     margin-left: 20px;
@@ -10,4 +16,8 @@ ul {
 
 ul:not(.browser-default) li{
     list-style-type: decimal;
+}
+
+.subtitle {
+    color: #9e9e9e;
 }
