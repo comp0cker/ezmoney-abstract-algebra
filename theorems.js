@@ -196,6 +196,78 @@ var data = [
         chapter: "15"
     },
 
+    {
+        name: "Theorem 15.6 Field of Quotients",
+        text: "Let D be an integral domain. Then there exists a field F (called the field of quotients of D) that contains a subring isomorphic to D.",
+        chapter: "15"
+    },
+
+    {
+        name: "Definition Ring of Polynomials over R",
+        text: "Let R be a commutative ring. The set of formal symbols" +
+        "<br>" +
+        "<blockquote>R[x] = {a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x + a<sub>0</sub> | a<sub>i</sub> ∈ R, n is a nonnegative integer</blockquote>" +
+        "is called the ring of polynomials over R in the indeterminate x.<br>" +
+        "Two elements<br>" +
+        "<blockquote>a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x + a<sub>0</sub></blockquote>" +
+        "and" +
+        "<blockquote>b<sub>n</sub>x<sup>n</sup> + b<sub>n-1</sub>x<sup>n-1</sup> + ... + b<sub>1</sub>x + b<sub>0</sub></blockquote><br>" +
+        "of R[x] are considered equal if and only if a<sub>i</sub> = b<sub>i</sub> for all nonnegative integers i. (Define a<sub>i</sub> = 0 when i > n and b<sub>i</sub> = 0 when i > m.)",
+        chapter: "16"
+    },
+
+    {
+        name: "Definition Addition and Multiplication in R[x]",
+        text: "Let R be a commutative ring and let" +
+        "<blockquote>f(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x + a<sub>0</sub></blockquote>" +
+        "and" +
+        "<blockquote>g(x) = b<sub>n</sub>x<sup>n</sup> + b<sub>n-1</sub>x<sup>n-1</sup> + ... + b<sub>1</sub>x + b<sub>0</sub></blockquote>" +
+        "belong to R[x]. Then" +
+        "<blockquote>f(x) + g(x) = (a<sub>s</sub> + b<sub>s</sub>)x<sup>s</sup> + (a<sub>s-1</sub> + b<sub>s-1</sub>)x<sup>s-1</sup> + ... + (a<sub>1</sub> + b<sub>1</sub>)x + a<sub>0</sub> + b<sub>0</sub>,</blockquote>" +
+        "where s is the maximum of m and n, a<sub>i</sub> = 0 for i > n, and b<sub>i</sub> = 0 for i > m. Also," +
+        "<blockquote>f(x)g(x) = c<sub>m+n</sub>x<sup>m+n</sup> + c<sub>m+n-1</sub>x<sup>m+n-1</sup> + ... + c<sub>1</sub>x + c<sub>0</sub></blockquote>" +
+        "where" +
+        "<blockquote>c<sub>k</sub> = a<sub>k</sub>b<sub>0</sub> + a<sub>k-1</sub>b<sub>1</sub> + ... + a<sub>1</sub>b<sub>k-1</sub> + a<sub>0</sub>b<sub>k</sub></blockquote>" +
+        "for k = 0, ..., m+n.",
+        chapter: "16"
+    },
+
+    {
+        name: "Theorem 16.1 D an Integral Domain Implies D[x] an Integral Domain",
+        text: "If D is an integral domain, then D[x] is an integral domain.",
+        chapter: "16"
+    },
+
+    {
+        name: "Theorem 16.2 Division Algorithm for F[x]",
+        text: "Let F be a field and let f(x), g(x) ∈ F[x] with g(x) ≠ 0. Then there exist unique polynomials q(x) and r(x) in F[x] such that f(x) = g(x)q(x) + r(x) and either r(x) = 0 or deg r(x) < deg g(x).",
+        chapter: "16"
+    },
+
+    {
+        name: "Corollary 1 Remainder Theorem",
+        text: "Let F be a field, a ∈ F, and f(x) ∈ F[x]. Then f(a) is the remainder in the division of f(x) by x - a.",
+        chapter: "16"
+    },
+
+    {
+        name: "Corollary 2 Factor Theorem",
+        text: "Let F be a field, a ∈ F, and f(x) ∈ F[x]. Then a zero of f(x) if and only if x - a is a factor of f(x).",
+        chapter: "16"
+    },
+
+    {
+        name: "",
+        text: "",
+        chapter: "16"
+    },
+
+    {
+        name: "",
+        text: "",
+        chapter: "16"
+    },
+
 /*
     {
         name: "",
